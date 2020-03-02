@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Karla|League+Script&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/6dacb53400.js" crossorigin="anonymous"></script>
+    <title>Contact Me</title>
+</head>
+
+<body>
+
+
+    <nav class="transparent no-shadows">
+
+        <div class="nav-wrapper">
+            <span class="brand-logo center black-text">Rachel Yeung</span>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <div id="nav-items">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About Me</a></li>
+                    <li><a href="/portfolio">Portfolio</a></li>
+                    <li class="active"><a href="/contact">Contact Me</a></li>
+                </div>
+
+            </ul>
+        </div>
+
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About Me</a></li>
+        <li><a href="/portfolio">Portfolio</a></li>
+        <li class="active"><a href="/contact">Contact Me</a></li>
+    </ul>
+
+
+
+    <div class="container">
+        <h4>Check out my LinkedIn/Github: </h4>
+        <span>
+            <a href="https://www.linkedin.com/in/rachel-yeung-814986159/"><i style="font-size: 5em; color:#A1A2AB"
+                    class="fab fa-linkedin"></i></a>
+        </span>
+        <span>
+            <a href="https://github.com/xrachhel"><i style="font-size: 5em; color:#A1A2AB"
+                    class="fab fa-github"></i></a>
+        </span>
+        <h4>Or send me a message!</h4>
+        <form action="mailto:rachel.cmyeung@gmail.com" method="post" enctype="text/plain">
+            Message:<br>
+            <input type="text" size="50"><br><br>
+            <button class="btn waves-effect waves-light black-text sendBtn" type="submit" value="send"
+                name="action">Send
+                <i class="material-icons right">send</i>
+            </button>
+        </form>
+
+    </div>
+
+
+
+    <!--------------JQuery----------------->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+
+</body>
+
+</html>

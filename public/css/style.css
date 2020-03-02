@@ -1,0 +1,69 @@
+body{
+    background-image: url("../images/brickwall.png");
+    font-family:'Karla', sans-serif;
+}
+nav{
+    height: 100px;
+}
+#nav-items li a{
+    color: black;
+    font-size: 1.3vw;
+}
+.no-shadows{
+    box-shadow: none!important;
+}
+.brand-logo{
+    font-family: 'League Script', cursive !important;
+    font-size: 4em !important;
+    margin-top: 20px;
+    font-weight:bold;
+}
+#pic {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgba(0, 0, 0, 0.3) 4px 1px 20px 4px;
+}
+#about {
+    text-align: center;
+}
+.sendBtn{
+    background-color: #A1A2AB;
+    margin: 10px;
+}
+#aboutPic{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 4px 1px 20px 4px;
+}
+#resume{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 375px;
+    width: 250px;
+  
+}
+#aboutText{  
+    font-size: 1.5em;
+}
+#enlarge{
+    font-size: 1vw;
+}
+.gif{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+}
+.container{
+    margin-top: 50px;
+}
+

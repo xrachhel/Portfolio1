@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Karla|League+Script&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/6dacb53400.js" crossorigin="anonymous"></script>
+    <title>Portfolio</title>
+</head>
+
+<body>
+
+
+    <nav class="transparent no-shadows">
+
+        <div class="nav-wrapper">
+            <span class="brand-logo center black-text "> Rachel Yeung</span>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <div id="nav-items">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About Me</a></li>
+                    <li class="active"><a href="/portfolio">Portfolio</a></li>
+                    <li><a href="/contact">Contact Me</a></li>
+                </div>
+            </ul>
+        </div>
+
+
+    </nav>
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About Me</a></li>
+        <li class="active"><a href="/portfolio">Portfolio</a></li>
+        <li><a href="/contact">Contact Me</a></li>
+    </ul>
+
+
+
+    <div class="container">
+        <div>
+            <h3>Sapling</h3>
+            <div class="row">
+                <div class="col s12 l4">
+                    <p class="portfolioText">
+                        MERN stack application levaraging 3 retail APIs to allow users to compare and track prices over
+                        time between Amazon,
+                        Best Buy, and Walmart. Built on a React front end, Saplings React UI components utilize a global
+                        state
+                        file to pass
+                        state and effect hooks to refactor compartmentalized components used elsewhere in the
+                        application.
+                        User authentication is handled by passport while user account information is handled by a
+                        MongoDB
+                        backend.
+                    </p>
+                    <a href="https://github.com/xrachhel/sapling" target="_blank"
+                        class="waves-effect waves-light btn-small black-text sendBtn"><i class="fab fa-github"></i>
+                        Github Repo</a>
+                    <a href="https://sapling-tracker.herokuapp.com" target="_blank"
+                        class="waves-effect waves-light btn-small black-text sendBtn"><i
+                            class="material-icons left">desktop_mac</i> Deployed Site</a>
+                </div>
+                <div class="col s12 l8">
+                    <img src="./images/demo.gif" alt="" class="gif">
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <h3>Google Books</h3>
+            <div class="row">
+
+                <div class="col s12 l4">
+                    <p class="portfolioText">
+                        React application that allows users to search for books, getting back the books information and
+                        allows them to save selected books to their saved books list. React componenets are built using
+                        classes and state is set for each book on both the search books page and the saved books page.
+                        This application uses the google books api and utilizes axios to make backend api requests.
+                        Express is used for backend functionality and creating the server. MongoDB handles user account
+                        information and allows users to store books to the database.
+                    </p>
+                    <a href="https://github.com/xrachhel/google-book-search " target="_blank"
+                        class="waves-effect waves-light btn-small black-text sendBtn"><i class="fab fa-github"></i>
+                        Github Repo</a>
+                    <a href="https://quiet-lake-98090.herokuapp.com/m" target="_blank"
+                        class="waves-effect waves-light btn-small black-text sendBtn"><i
+                            class="material-icons left">desktop_mac</i> Deployed Site</a>
+                </div>
+                <div class="col s12 l8">
+                    <img src="./images/googleBooks.gif" alt="" class="gif">
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <h3>Weather Eats</h3>
+            <div class="row">
+
+                <div class="col s12 l4">
+                    <p class="portfolioText">
+                        Application that recommends restaurants based on the weather, location, and budget filters. Different weather
+                        conditions determine what type of restaurants are recommended. Built with JavaScript, Bulma, Packery, 
+                        and OpenWeather, Yelp Fusion, and Google map 3rd party APIs.
+                    </p>
+                    <a href="https://github.com/xrachhel/weatherEats" target="_blank"
+                        class="waves-effect waves-light btn-small black-text sendBtn"><i class="fab fa-github"></i>
+                        Github Repo</a>
+                    <a href="https://xrachhel.github.io/weatherEats/" target="_blank"
+                        class="waves-effect waves-light btn-small black-text sendBtn"><i
+                            class="material-icons left">desktop_mac</i> Deployed Site</a>
+                </div>
+                <div class="col s12 l8">
+                    <img src="./images/weatherEats.gif" alt="" class="gif">
+                </div>
+            </div>
+        </div>
+
+        <div>
+                <h3>Note Taker</h3>
+                <div class="row">
+    
+                    <div class="col s12 l4">
+                        <p class="portfolioText">
+                            Application that allows users to save, write, and delete notes to keep track
+                            of tasks or items. Created with JavaScript, Node Js, and an Express backend
+                            handling API routes to retrieve data
+                        </p>
+                        <a href="https://github.com/xrachhel/noteTaker" target="_blank"
+                            class="waves-effect waves-light btn-small black-text sendBtn"><i class="fab fa-github"></i>
+                            Github Repo</a>
+                        <a href="https://dashboard.heroku.com/apps/stark-ravine-96239" target="_blank"
+                            class="waves-effect waves-light btn-small black-text sendBtn"><i
+                                class="material-icons left">desktop_mac</i> Deployed Site</a>
+                    </div>
+                    <div class="col s12 l8">
+                        <img src="./images/noteTaker.gif" alt="" class="gif">
+                    </div>
+                </div>
+            </div>
+
+
+
+    </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+
+</body>
+
+</html>
